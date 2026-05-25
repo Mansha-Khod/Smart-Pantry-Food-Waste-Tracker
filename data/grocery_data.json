@@ -1,0 +1,182 @@
+[
+    {
+        "item": "eggs",
+        "category": "Dairy",
+        "price": 3.0,
+        "qty": 12,
+        "unit": "pcs",
+        "fresh_for": 14,
+        "date_added": "20-05-2026"
+    },
+    {
+        "item": "milk",
+        "category": "Dairy",
+        "price": 2.5,
+        "qty": 2,
+        "unit": "liters",
+        "fresh_for": 5,
+        "date_added": "23-05-2026"
+    },
+    {
+        "item": "bread",
+        "category": "Bakery",
+        "price": 1.8,
+        "qty": 2,
+        "unit": "packs",
+        "fresh_for": 4,
+        "date_added": "24-05-2026"
+    },
+    {
+        "item": "rice",
+        "category": "Grains",
+        "price": 15.0,
+        "qty": 5,
+        "unit": "kg",
+        "fresh_for": 180,
+        "date_added": "01-05-2026"
+    },
+    {
+        "item": "chicken",
+        "category": "Frozen",
+        "price": 12.0,
+        "qty": 2,
+        "unit": "kg",
+        "fresh_for": 7,
+        "date_added": "18-05-2026"
+    },
+    {
+        "item": "apples",
+        "category": "Fruits",
+        "price": 4.0,
+        "qty": 8,
+        "unit": "pcs",
+        "fresh_for": 10,
+        "date_added": "21-05-2026"
+    },
+    {
+        "item": "bananas",
+        "category": "Fruits",
+        "price": 2.0,
+        "qty": 12,
+        "unit": "pcs",
+        "fresh_for": 5,
+        "date_added": "22-05-2026"
+    },
+    {
+        "item": "potatoes",
+        "category": "Vegetables",
+        "price": 3.5,
+        "qty": 4,
+        "unit": "kg",
+        "fresh_for": 30,
+        "date_added": "15-05-2026"
+    },
+    {
+        "item": "onions",
+        "category": "Vegetables",
+        "price": 2.8,
+        "qty": 3,
+        "unit": "kg",
+        "fresh_for": 25,
+        "date_added": "16-05-2026"
+    },
+    {
+        "item": "tomatoes",
+        "category": "Vegetables",
+        "price": 3.0,
+        "qty": 2,
+        "unit": "kg",
+        "fresh_for": 6,
+        "date_added": "22-05-2026"
+    },
+    {
+        "item": "yogurt",
+        "category": "Dairy",
+        "price": 5.0,
+        "qty": 6,
+        "unit": "cups",
+        "fresh_for": 10,
+        "date_added": "19-05-2026"
+    },
+    {
+        "item": "cheese",
+        "category": "Dairy",
+        "price": 7.5,
+        "qty": 1,
+        "unit": "kg",
+        "fresh_for": 20,
+        "date_added": "12-05-2026"
+    },
+    {
+        "item": "chips",
+        "category": "Snacks",
+        "price": 1.5,
+        "qty": 10,
+        "unit": "packs",
+        "fresh_for": 90,
+        "date_added": "10-05-2026"
+    },
+    {
+        "item": "cookies",
+        "category": "Snacks",
+        "price": 2.5,
+        "qty": 5,
+        "unit": "packs",
+        "fresh_for": 60,
+        "date_added": "11-05-2026"
+    },
+    {
+        "item": "orange juice",
+        "category": "Beverages",
+        "price": 4.5,
+        "qty": 3,
+        "unit": "bottles",
+        "fresh_for": 15,
+        "date_added": "17-05-2026"
+    },
+    {
+        "item": "coffee",
+        "category": "Beverages",
+        "price": 9.0,
+        "qty": 1,
+        "unit": "packs",
+        "fresh_for": 180,
+        "date_added": "01-04-2026"
+    },
+    {
+        "item": "ice cream",
+        "category": "Frozen",
+        "price": 6.0,
+        "qty": 2,
+        "unit": "tubs",
+        "fresh_for": 90,
+        "date_added": "05-05-2026"
+    },
+    {
+        "item": "spinach",
+        "category": "Vegetables",
+        "price": 2.0,
+        "qty": 1,
+        "unit": "kg",
+        "fresh_for": 4,
+        "date_added": "23-05-2026"
+    },
+    {
+        "item": "butter",
+        "category": "Dairy",
+        "price": 3.5,
+        "qty": 2,
+        "unit": "packs",
+        "fresh_for": 25,
+        "date_added": "14-05-2026"
+    },
+    {
+        "item": "pasta",
+        "category": "Grains",
+        "price": 4.0,
+        "qty": 3,
+        "unit": "packs",
+        "fresh_for": 365,
+        "date_added": "01-03-2026"
+    }
+]
