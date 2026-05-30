@@ -13,7 +13,7 @@ sys.path.append(
     )
 )
 
-import utils.pantry as pantry
+
 import utils.pantry as pantry
 
 # -----------------------------------
@@ -246,7 +246,15 @@ for a in pantry.grocery_list:
     })
 
 df = pd.DataFrame(data)
+display_df = df.copy()
 
+display_df["Price"] = display_df["Price"].apply(
+    lambda x: f"{x:.2f}"
+)
+
+display_df["Total Value"] = display_df["Total Value"].apply(
+    lambda x: f"{x:.2f}"
+)
 # -----------------------------------
 # SORTING
 # -----------------------------------
@@ -332,7 +340,7 @@ selected_category = st.selectbox(
     ["All"] + list(df["Category"].unique())
 )
 
-filtered_df = df.copy()
+filtered_df = display_df.copy()
 
 if search:
 
