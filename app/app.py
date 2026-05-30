@@ -246,15 +246,6 @@ for a in pantry.grocery_list:
     })
 
 df = pd.DataFrame(data)
-display_df = df.copy()
-
-display_df["Price"] = display_df["Price"].apply(
-    lambda x: f"{x:.2f}"
-)
-
-display_df["Total Value"] = display_df["Total Value"].apply(
-    lambda x: f"{x:.2f}"
-)
 # -----------------------------------
 # SORTING
 # -----------------------------------
@@ -274,7 +265,15 @@ df = df.sort_values(
 )
 
 df = df.drop(columns=["sort_order"])
+display_df = df.copy()
 
+display_df["Price"] = display_df["Price"].apply(
+    lambda x: f"{x:.2f}"
+)
+
+display_df["Total Value"] = display_df["Total Value"].apply(
+    lambda x: f"{x:.2f}"
+)
 # -----------------------------------
 # METRICS
 # -----------------------------------
