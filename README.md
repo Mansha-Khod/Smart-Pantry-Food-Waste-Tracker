@@ -1,7 +1,8 @@
 # Smart Pantry & Food Waste Tracker
 
-A Streamlit-based pantry management application that helps users track groceries, monitor expiry dates, analyze pantry value, and reduce food waste.
-
+A Streamlit-based pantry management application that helps users track groceries, monitor expiry dates, analyze pantry value, and reduce food waste.  
+Live Demo
+Application: https://smart-pantry-food-waste-tracker.streamlit.app/
 ## Features
 
 * Add, update, search, and delete pantry items
