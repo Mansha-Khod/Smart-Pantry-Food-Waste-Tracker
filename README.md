@@ -1,69 +1,98 @@
 # Smart Pantry & Food Waste Tracker
 
-A Streamlit-based pantry management application that helps users track groceries, monitor expiry dates, analyze pantry value, and reduce food waste.  
-Live Demo
-Application: https://smart-pantry-food-waste-tracker.streamlit.app/
-## Features
+A production-grade, Streamlit-based pantry management and sustainability application designed to track grocery inventories, automate expiry monitoring, analyze financial waste metrics, and optimize household grocery utilization.
 
-* Add, update, search, and delete pantry items
-* Track expiry dates automatically
-* Pantry health score system
-* Category-based analytics
-* Interactive charts and visualizations
-* CSV export support
-* Persistent storage using JSON
-* Smart filtering and search
+---
 
-## Technologies Used
+## Live Application
 
-* Python
-* Streamlit
-* Pandas
-* Plotly
-* JSON
+Access the deployed system here: **[Smart Pantry Dashboard](https://smart-pantry-food-waste-tracker.streamlit.app/)**
 
-## Project Structure
+---
 
+## Application Demonstration
+
+Here is a live walkthrough showcasing item management, real-time analytics, and expirations tracking:
+
+<video src="https://github.com/user-attachments/assets/6548310a-6523-4d34-994f-a0fb3b831723" width="100%" controls autoplay loop muted playsinline></video>
+
+---
+
+##  Key Features
+
+* **Full CRUD Operations:** Add, update, query, and eliminate grocery inventory items seamlessly.
+* **Automated Expiry Tracking:** Visual alerts and chronological warnings for items approaching critical dates.
+* **Pantry Health Scoring:** Algorithmic sustainability metrics reflecting inventory efficiency and minimized waste trends.
+* **Advanced Category Analytics:** Visual distribution charts segmenting pantry cost concentration and quantity balances.
+* **Interactive Data Visualization:** Custom Plotly dashboards tracking waste projections and financial data.
+* **Robust Persistence & Export:** Flat-file JSON structural storage with single-click custom CSV schema reports exporting.
+* **Dynamic Search Architecture:** Instant multi-parameter querying and granular structural inventory filtering.
+
+---
+
+## Tech Stack & Dependencies
+
+* **Interface & Framework:** Streamlit (Dynamic layout compilation)
+* **Data Processing Engines:** Python 3.9+, Pandas (Structured data frame manipulation), NumPy
+* **Data Visualization Layer:** Plotly Express (Interactive charts & engine rendering)
+* **Storage Schema:** Native JSON Engine (Lightweight local state persistence)
+
+---
+
+##  Project Architecture
+
+```text
 food-waste-project/
 │
 ├── app/
-│   └── app.py
+│   └── app.py               # Main UI rendering engine and routing controls
 │
 ├── data/
-│   └── grocery_data.json
+│   └── grocery_data.json    # Local state persistence data schema
 │
 ├── utils/
-│   └── pantry.py
+│   └── pantry.py            # Business logic and abstract data handling functions
 │
-├── requirements.txt
+├── requirements.txt         # Package pinning and dependencies list
 │
-└── README.md
-
-## How to Run
-
-1. Clone the repository
-
-```bash
-git clone <repo-link>
+└── README.md                # Structural documentation
 ```
 
-2. Install dependencies
+---
 
+##  Local Installation & Setup
+
+Follow these steps to deploy a localized instance of the project environment:
+
+### 1. Replicate Project Files
+```bash
+git clone https://github.com
+cd food-waste-project
+```
+
+### 2. Configure Virtual Environment & Packages
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Run the application
-
+### 3. Initialize Runtime Engine
 ```bash
 streamlit run app/app.py
 ```
 
-## Future Improvements
+---
 
-* SQLite database integration
-* User authentication
-* Barcode scanning
-* OCR receipt scanning
-* AI-based food waste prediction
-* Cloud deployment
+##  Engineering Roadmap & Future Scale
+
+* **Storage Evolution:** Migrate flat JSON schemas over to fully relational SQLite database clustering.
+* **Access Control Infrastructure:** Implement robust multi-tenant encryption and secure User Authentication.
+* **Hardware Integration APIs:** Deploy mobile device Barcode Camera Scanning functionalities.
+* **Computer Vision Processing:** Integrate OCR receipt capture pipelines to instantly parse retail checkouts.
+* **Predictive AI Modelling:** Build machine learning forecast engines to proactively alert consumption velocities.
+* **Cloud Architecture:** Transition baseline hosting dependencies out to managed distributed systems.
+
+---
+
+##  License
+
+Distributed under the MIT License. See `LICENSE` for more details.
